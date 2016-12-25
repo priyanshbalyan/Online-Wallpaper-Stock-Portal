@@ -1,0 +1,161 @@
+﻿body{
+	margin-top: 6px;
+	margin-right: 0;
+	margin-left: 10%;
+	margin-bottom: 0;
+	padding: 0;
+	font-size: 1.1em;
+	font-family: robotofont,Calibri,Helvetica,"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed",  Arial, sans-serif;
+	color: #FFFFFF;
+	background:url(landingbackground.jpg)
+}
+
+@font-face{
+	font-family: robotofont ;
+	src: url(robotothin.ttf) ;
+}
+
+img{margin:0; padding:0; border:none;}
+
+a{color:#FFFFFF; text-decoration:blink; transition: all 0.3s linear;}
+a:hover{color:#e91e63; font-size:1.2em}
+
+.fl_left{
+	float: left;
+	height: 100%;
+	width: 49%;
+	margin-top: 18%;
+}
+.fl_right{float:right; height: 100% ; width: 49% ; margin-top:10% ;}
+
+h1{padding-left: 10% ; font-size:3em;}
+/* FORM LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+    resize: none;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+    width:200px;
+     font-size:larger;
+     font-weight: bold;
+     resize: none;
+}
+
+input[type="text"], 
+input[type="password"] {
+	width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+	transition: all 0.3s linear;
+	}
+input[type="text"]:hover,input[type="password"]:hover {
+    border: 3px solid #006699;
+}
+
+select {
+    border: 1px solid #ccc;
+    padding: 2px;
+    font-size: 1em;
+    color: #444;
+    width:200px;
+}
+
+input[type="submit"],
+input[type="reset"]
+{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type="submit"]: hover{
+	background-color: #000000 ;
+}
+
+/* TABLE
+----------------------------------------------------------*/
+
+table {
+    border: solid 1px #e8eef4;
+    border-collapse: collapse;
+    alignment-adjust: central;
+}
+
+table td {
+    padding: 5px;
+    border: solid 1px #e8eef4;
+    
+    
+}
+
+table th {
+    padding: 6px 5px;
+    text-align: left;
+    background-color:red;
+    border: solid 1px #e8eef4;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{list-style-type:none; margin:0; padding:0;}
+
+.clear{display:inline-block;}
+
+.clear {
+    clear: both;
+}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D7DBE0;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+div{
+	height: 100% ;
+}
+	
+div#title {
+    display: block;
+    float: left;
+    text-align: left;
+	height: 100% ;
+}
+
+#logindisplay {
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    margin: 10px;
+    color: Black;
+}
+
+#logindisplay a:link {
+    color: Black;
+    text-decoration: underline;
+}
+
+#logindisplay a:visited {
+    color: Black;
+    text-decoration: underline;
+}
+
+#logindisplay a:hover {
+    color: Black;
+    text-decoration: none;
+}
